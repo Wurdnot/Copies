@@ -1,0 +1,190 @@
+/* Color Schemes */
+body {
+	background: #202124;
+	font-family: arial, sans-serif;
+	margin: 0px;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+}
+
+header button {
+	background-color: #8ab4f8;
+	color: black;
+}
+
+h1 {
+	color: white;
+}
+
+input {
+	background: #202124;
+	border: 1px solid #bdc1c6;
+	border-color: grey;
+}
+
+button {
+	background-color: #303134;
+	color: #e8eaed;
+	border: none;
+}
+
+p {
+	color: #bdc1c6;
+}
+
+main a {
+	color: #8ab4f8;
+	text-decoration: none;
+}
+
+footer {
+	background: #171717;
+}
+
+footer p {
+	color: rgba(255, 255, 255, .54);
+	border-bottom: 1px solid #212327;
+}
+
+footer a {
+	color: rgba(255, 255, 255, .54);
+	text-decoration: none;
+}
+
+/* Layout */
+
+header {
+	float: right;
+}
+
+header button {
+	width: 120px;
+	margin-right: 17px;
+	margin-top: 2px;
+}
+
+header a {
+	font-size: 13px;
+	margin-left: 13px;
+}
+
+#edit {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+header img {
+	width: 30px;
+	position: absolute;
+	top: 16px;
+	right: 150px;
+}
+
+main img {
+	width: 277px;
+	display: block;
+	margin-left: 545px;
+	margin-top: 11px;
+	padding-top: 42px;
+	height: 102px;
+}
+
+input {
+	display: block;
+	width: 579px;
+	margin-top: 23px;
+	margin-left: 391px;
+	height: 42px;
+	border-radius: 30px;
+}
+
+button {
+	width: 140px;
+	border-radius: 4px;
+	margin-top: 28px;
+	padding: 10px;
+	font-size: 14px;
+}
+
+#button1 {
+	margin-left: 535px;
+	margin-right: 10px;
+}
+
+main p {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 13px;
+}
+
+footer {
+	margin: 0px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+footer p {
+	font-style: none;
+	font-size: 15px;
+	padding: 10px;
+	padding-bottom: 15px;
+}
+
+#rodapé-esquerdo {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+#rodapé-direito {
+	float: right;
+	font-size: 14px;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+
+#rodapé-esquerdo a {
+	margin-right: 20px;
+}
+
+#rodapé-direito a {
+	margin-left: 20px;
+}
+
+/* Decorations */
+input {
+	background-image: url('imagens/microfone.png');
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: 97%;
+}
+
+header img:hover {
+	border-radius: 100%;
+	background-color: #303134;
+}
+
+
+a:hover {
+	text-decoration: underline;
+}
+
+header button:hover {
+	background-color: #93baf9;
+}
+
+main button:hover {
+	border: 1px solid gray;
+}
+
+input:hover {
+	background-color: #303134;
+	border-color: transparent;
+}
